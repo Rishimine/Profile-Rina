@@ -1,0 +1,148 @@
+header{
+    background-color: rgb(202, 180, 243);
+    color: white;
+ padding: 14px 40px;
+ font-size: 20px;
+}
+.hd-left{
+    display: flex;
+    justify-content: space-between;
+}
+.hd-log{
+    width: out;
+    height: 30px;
+}
+.top{
+    width: 100vw;
+    height: 90vh;
+    background-image: url("./cleo-vermij-wSct4rrBPWc-unsplash.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+}
+.top h1{
+    font-size: 80px;
+}
+
+.about{
+    margin-top: 30px;
+}
+.about span{
+    font-size: 30px;
+    font-weight:bold ;
+    padding: 20px 40px;
+}
+.text-main{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 30px ;
+  
+}
+
+
+.text-main h2{
+    font-size: 30px;
+}
+.main-box1{
+    /* display: flex;
+    align-items: center; */
+    border: 1px solid black;
+    margin: 20px 10px;
+
+}
+.work-p{
+    padding: 50px;
+}
+.section-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 353.45px; */
+
+    
+}
+.box1-img{
+    max-width: 50%;
+ 
+    }
+
+
+
+.main-box2{
+    /* display: flex;
+    align-items: center; */
+    border: 1px solid black;
+    margin: 20px 10px;
+    padding: 20px 20px;
+  
+}
+/* .section-2{
+    text-align: center;
+} */
+.box2-img{
+max-width: 50%;
+padding-top: 40px;
+padding-bottom: 2px;
+
+}
+.main-box3{
+    /* display: flex;
+    align-items: center; */
+    border: 1px solid black;
+    margin: 20px 10px;
+    
+}
+.section-1 ul{
+   padding: 40px;
+}
+.box3-img{
+    max-width: 55%;
+    padding-top: 22px;
+    }
+    .gazo{
+
+        max-width: 30%;
+    }
+    .contact div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px ;
+    }
+     .contact span{
+        font-size: 30px;
+        font-weight:bold ;
+        padding: 20px 40px;
+    }
+
+    .contact button{
+        margin: 20px;
+        width: 100px;
+        height: 50px;
+        font-size: 25px;
+        transition: background-color 2s linear 1s;
+    }
+    button:hover{
+        background-color: hotpink;
+    }
+
+.foot{
+width: 100vw;
+height: 30px;
+background-color: rgb(202, 180, 243);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.foot p{
+    padding-left: 10px;
+}
